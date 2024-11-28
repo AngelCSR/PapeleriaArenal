@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Pacifico&family=Praise&family=Sevillana&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        </style>
+</head>
+<body>
+    <h1>Formulario de información</h1>
+    <p id="im">
+    <a id="im" href="https://www.google.com/imgres?q=papeleria&imgurl=https%3A%2F%2Fwww.papeleriavioleta.com%2Fassets%2Fimages%2Fservicios1.jpg&imgrefurl=https%3A%2F%2Fwww.papeleriavioleta.com%2Fservicios.html&docid=Q7J4EYZ5RcH5GM&tbnid=Ve9lmTzmFSYYtM&vet=12ahUKEwiSqLvf5P-JAxWcQ0EAHRoMDw8QM3oECBkQAA..i&w=800&h=450&hcb=2&ved=2ahUKEwiSqLvf5P-JAxWcQ0EAHRoMDw8QM3oECBkQAA"><img id="im" src="images.jpeg" ></a>
+</p>
+    <form action="formulario.php" method="post">
+    <fieldset >
+       <legend id="caja">Sus Datos</legend>
+       <label for="Normbreyapellidos" id="caja">Nombre y apellidos</label>
+       <input type="text" name="Normbreyapellidos" maxlength="50" id="Normbreyapellidos"></imput>
+       <p><label id="caja" for="contraseña">Contraseña</label>
+        <input type="password" name="contraseña" maxlength="8" id="contraseña">
+       </p>
+       <p><label id="caja">Usuario:
+        <input type="text" maxlength="10" ></label>
+       </p><label id="caja" for="nivel">
+       Interes:</label>
+       <p>
+        <label id="caja" for="pro">Quiero saberlo todo:</label><input type="radio" name="nivel" value="p" id="pro"></p>
+        <p>
+      
+        <label id="caja" for="av">Estoy interesado:</label><input type="radio" name="nivel" value="a" checked id="av"> </p>
+         <p>
+        <label id="caja" for="pr">Tengo curiosidad:</label><input type="radio" name="nivel" value="pi" id="pr">
+         </p>
+    
+    </fieldset>
+    <p>
+        <label id="ac" for="nacionalidad">
+    Nacionalidad:</label><select name="nacionalidad">
+        <option value="esp" selected>Española</option>
+        <option value="ue">Unión Europea</option>
+        <option value="noue">Fuera de la UE</option>
+    </p>
+    </select>
+    <p>
+        <label id="ac" for="descripción">Descripción:</label>
+    <textarea name="descripción" rows="5" cols="30">
+
+        Escriba sus Intesreses o dudas específicas...</textarea>
+    </p>
+    <label id="ac" for="info">
+    <input type="checkbox" name="info" checked id="info"> Deseo recibir información sobre nobedades y ofertas
+    </label>
+    <p>
+        <label id="ac" for="consentimiento">
+        <input type="checkbox" name="consentimiento" id="consentimiento"> Declaro habe leido y aceptar las condiciones generales del programa y la normativa de protección de datos
+    </label>
+    </p>
+    <p>
+        <label id="ab" for="foto">Subir foto:</label><input type="file" name="foto">
+    </p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar datos">
+    <p><a href="index.html">Volver a la página principal</a></p>
+</form>
+</body>
+</html>

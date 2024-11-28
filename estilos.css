@@ -1,0 +1,83 @@
+h1{
+    font-family: "Pacifico";
+    font-size: 50px;
+    color: #d2691e;
+    text-align: center;
+}
+h2{
+    font-family: "Shantell Sans", serif;
+    font-size: 30px;
+    color: aquamarine;
+}
+h3{
+    font-family: "Caveat";
+    font-size: 25px;
+    color: #008b8b;
+}
+p, li { font-family: "Sevillana", cursive;
+
+}
+li{
+    text-shadow: 2px;
+    color: yellowgreen;
+}
+a{ color: red;}
+a:visited{ color: grey;}
+a:hover{
+    font-weight: bold;
+    color: red;
+}
+a:active{color: green;}
+a:link{ font-weight: bold;
+    color:blue;}
+table{
+    width: 33%;
+   margin: auto;
+   border: 2px solid rgb(61, 102, 52);
+   border-collapse: collapse;
+   
+}
+   th ,td{
+    font-family: "Sevillana", cursive;
+    border: 2px solid rgb(42, 165, 93);
+    border-collapse: collapse;
+   background-color: antiquewhite;
+
+}
+body{ background-image: url(papeleria.webp) ;
+    background-repeat: no-repeat;
+
+    background-size: cover; 
+   
+
+    }
+    #caja{
+        background-color: antiquewhite;
+        font-family: "Sevillana", cursive;
+        font-weight: bold;
+        color: black;
+        
+
+    }
+    #ac{
+        color: #d2691e;
+        font-family: "Shantell Sans", serif;
+    }
+    #ab{
+        background-color: antiquewhite;
+    }
+    fieldset{
+        
+        border-radius: 10%;
+    }
+    #cont{
+       margin: auto 50%;    }
+       #tel{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       #im{
+        margin: auto;
+        text-align: center;
+        width: 100px;
+       }
